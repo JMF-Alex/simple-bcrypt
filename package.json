@@ -1,0 +1,17 @@
+{
+  "name": "simple-bcrypt",
+  "version": "1.0.0",
+  "description": "Simple project to encrypt inputs",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1"
+  }
+}

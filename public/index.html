@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bcrypt Encoder</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Bcrypt Encoder</h1>
+    
+    <form id="encrypt-form">
+      <label for="text">Text to encrypt:</label>
+      <input type="text" id="text" name="text" placeholder="Type here..." required>
+      <button type="submit">Encrypt</button>
+    </form>
+
+    <section id="result" class="result hidden" aria-live="polite">
+      <strong>Generated hash:</strong>
+      <code id="hash-output"></code>
+      <button type="button" id="copy-btn" class="btn-secondary">Copy</button>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
